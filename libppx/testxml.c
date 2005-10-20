@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <semaphore.h>
-#include <libxml2/libxml/xmlmemory.h>
-#include <libxml2/libxml/parser.h>
+#include <libxml/xmlmemory.h>
+#include <libxml/parser.h>
 #include "libppx.h"
 
 #define MAXWINS 10	// maximum number of window threads

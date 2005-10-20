@@ -8,8 +8,8 @@
 #include <X11/Xft/Xft.h>
 #include <X11/extensions/shape.h>
 #include <Imlib.h>
-#include <libxml2/libxml/xmlmemory.h>
-#include <libxml2/libxml/parser.h>
+#include <libxml/xmlmemory.h>
+#include <libxml/parser.h>
 #define DEBUG
 
 /* Type definitions */

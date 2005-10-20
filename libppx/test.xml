@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ppx>
 	<display>
-		<name>:1.0</name>
+		<name>:0.0</name>
 		<screen>0</screen>
 		<window>
 			<name>Ticker</name>
