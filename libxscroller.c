@@ -1,4 +1,4 @@
-/* libppx.c - ppx library */
+/* libxscroller.c - xscroller library */
 
 #include <stdio.h>
 #include <string.h>
@@ -11,7 +11,7 @@
 #include <Imlib.h>
 #include <libxml2/libxml/xmlmemory.h>
 #include <libxml2/libxml/parser.h>
-#include "libppx.h"
+#include "libxscroller.h"
 
 /************************************************************************/
 /*							Xml functions								*/

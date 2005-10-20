@@ -1,8 +1,8 @@
 /* Stop multiple inclusions */
-#ifndef _HAVE_LIBPP_
-#define _HAVE_LIBPP_
+#ifndef _HAVE_LIBXSROLLER_
+#define _HAVE_LIBXSCROLLER_
 
-/* libppx.h - header files for libppx. */
+/* libxscroller.h - header files for libxscroller. */
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/Xft/Xft.h>

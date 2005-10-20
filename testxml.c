@@ -8,7 +8,7 @@
 #include <semaphore.h>
 #include <libxml/xmlmemory.h>
 #include <libxml/parser.h>
-#include "libppx.h"
+#include "libxscroller.h"
 
 #define MAXWINS 10	// maximum number of window threads
 
