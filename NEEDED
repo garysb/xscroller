@@ -1,0 +1,4 @@
+sudo apt-get install libxml2-dev
+sudo apt-get install imlib
+sudo apt-get install imlib11-dev
+
