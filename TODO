@@ -1,0 +1,28 @@
+REG:  Now that we have a working regular expression engine, we need to allow the
+      program to return multiple results. eg. If a user does a --list --name,
+      then we should apply the regex as a filter to the list. Also, if the user
+      does and --info --name, then we should return multiple results of info. We
+      could also add the option to control multiple windows at the same time.
+
+REG:  Include the pcre regex engine also if the user has it on there system. We
+      can then try parse with the cheapest one unless the regex syntax is wrong,
+      then try use the other regex library. (aka. handle both syntaxes)
+
+EASE: We need to find an eligant way of letting the user define which type of
+      easing methods they want to use and also let them set the ease duration.
+
+EASE: The ease option should also not require the --set option as the point of
+      easing something is to set it to a new location in multiple steps. (not
+      sure if this still happens, Need to check it!)
+
+LIST: When listing windows with the short/default version, it would be good to
+      try get the actual window being displayed instead of the window that the
+      command created. Not sure if its possible without loads of dependancies.
+
+CMD:  For some reason the --verbose option isnt working properly in its short
+      form. Need to investigate further.
+
+OUT:  The output of some of the functions needs to be tidied up and we need to
+      go through all of the verbosity levels to see whats getting reported and
+      when.
+

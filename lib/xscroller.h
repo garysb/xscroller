@@ -2,7 +2,7 @@
 #ifndef _HAVE_LIBXSROLLER_
 #define _HAVE_LIBXSCROLLER_
 
-/* libxscroller.h - header files for libxscroller. */
+/* xscroller.h - header files for libxscroller. */
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/Xft/Xft.h>
@@ -183,3 +183,4 @@ int timeDelay(int i);												/* Create a delay (pause) */
 int timeDiff();														/* Calculate function execution time */
 
 #endif
+

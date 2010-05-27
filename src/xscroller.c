@@ -62,3 +62,4 @@ int main() {
 	xmlFreeDoc(xmlDocu.doc);
 	return 0;										/* Exit test */
 }
+

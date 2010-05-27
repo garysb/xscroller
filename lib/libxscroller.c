@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
+/*
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/Xft/Xft.h>
@@ -11,6 +12,7 @@
 #include <Imlib.h>
 #include <libxml2/libxml/xmlmemory.h>
 #include <libxml2/libxml/parser.h>
+*/
 #include "libxscroller.h"
 
 /************************************************************************/
@@ -812,3 +814,4 @@ int timeDiff()
 	delay.st = delay.rt;
 	return delay._d;
 }
+
